@@ -1,52 +1,75 @@
-# 📉 Customer Churn & Retention Strategy Dashboard
+<div align="center">
 
-Welcome to the **Customer Churn Analysis** repository! This project utilizes **Power BI** to perform a deep-dive analysis into customer behavior, identifying the root causes of attrition and providing a strategic roadmap to protect recurring revenue.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:01080e,40:0d1b2a,70:4682b4,100:01080e&height=220&section=header&text=Customer%20Churn%20Intelligence&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=%F0%9F%93%89%20Retention%20Strategy%20%E2%80%A2%20Revenue%20Leakage%20%E2%80%A2%20Risk%20Profiling&descSize=18&descAlignY=60&descColor=a9d6e5&animation=fadeIn" />
 
-[📊 View Project Repository](https://github.com/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI?color=4682b4&style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI?color=a9d6e5&style=for-the-badge)
+<br/>
 
----
+[📊 Explore the Interactive Power BI Dashboard](https://github.com/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI)
 
-## 🚀 Overview
-Customer churn is a critical metric for subscription-based businesses. This project maps demographics against contract types and service usage to pinpoint exactly why customers leave, allowing for targeted retention interventions.
-
-### Key Business Questions Addressed:
-- **The Bottom Line:** Current **Churn Rate** trends over the last quarter.
-- **Risk Profiling:** Identifying which segments (**Age, Gender, Tenure**) are most susceptible to leaving.
-- **Contractual Impact:** Measuring how **Month-to-Month vs. Long-term contracts** impact loyalty.
-- **Service Correlation:** Analyzing if service gaps (like lack of Tech Support) drive higher attrition.
+</div>
 
 ---
 
-## 🛠️ Technical Toolbelt
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power_Query-0078D4?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-Advanced_Analytics-blue?style=for-the-badge)
+## 🚀 Strategic Overview
+Customer churn is the silent killer of subscription-based growth. This project delivers a comprehensive **Churn & Retention Ecosystem** built in Power BI, mapping demographics against contract structures and service usage. It provides a data-driven roadmap to pinpoint "at-risk" segments and deploy targeted interventions to protect recurring revenue.
 
-- **Data Engineering:** Used **Power Query** for ETL, advanced data cleaning, and normalization of categorical variables.
-- **Data Modeling:** Implemented a **Star Schema** with optimized Fact and Dimension tables for high-performance reporting.
-- **Advanced DAX:** Developed complex measures for **Churn Rate %**, **Retention Rate**, and **Month-over-Month (MoM) Growth**.
+### 🎯 Key Analytical Pillars
+| **Module** | **KPIs & Analytical Focus** |
+| :--- | :--- |
+| **Executive Summary** | Total Customers, Churn Rate %, and Revenue Leakage tracking. |
+| **Demographic Deep-Dive** | Attrition analysis by Seniority, Partner Status, and Dependents. |
+| **Contractual Impact** | Loyalty correlation between Month-to-Month vs. Long-term contracts. |
+| **Service Correlation** | Identifying how gaps in Tech Support or Security drive churn. |
 
 ---
 
-## 📸 Dashboard Features
-- **Executive Summary:** High-level KPIs for **Total Customers**, **Churn Count**, and **Revenue Leakage**.
-- **Demographic Deep-Dive:** Churn analysis by seniority, partner status, and dependents.
-- **Account Analysis:** Correlation between **Payment Methods**, **Paperless Billing**, and tenure.
-- **Risk Assessment Matrix:** Identifies **"At-Risk"** customers based on low tenure and high charges.
+## 🛠️ Technical Architecture
+
+<div align="center">
+
+| **Phase** | **Technology** | **Implementation Details** |
+| :--- | :--- | :--- |
+| **Data Engineering** | ![Power Query](https://img.shields.io/badge/Power_Query-0078D4?style=flat-square&logo=microsoft-excel&logoColor=white) | Advanced ETL, data cleaning, and categorical normalization. |
+| **Data Modeling** | ![Star Schema](https://img.shields.io/badge/Star_Schema-Modeling-4682b4?style=flat-square) | Optimized Fact/Dimension architecture for high-speed reporting. |
+| **Advanced DAX** | ![DAX](https://img.shields.io/badge/DAX-Advanced-1b263b?style=flat-square) | Engineered Churn Rate %, Retention %, and MoM Growth logic. |
+
+</div>
+
+---
+
+## 📸 Dashboard Interface Gallery
+*Visualizing the subscriber lifecycle, churn drivers, and financial risk.*
+
+<div align="center">
+
+| **Churn Analytics Overview** | **Customer Demographic Analysis** |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI/main/Churn%20Analytics.png" width="450"> | <img src="https://raw.githubusercontent.com/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI/main/Customer%20Analysis.png" width="450"> |
+
+**Revenue & Risk Assessment Matrix**
+<br>
+<img src="https://raw.githubusercontent.com/mayurlokmanwar-analyst/Churn-Data-Analysis-Dashboard-in-Power-BI/main/Revenue%20&%20Risk%20Analysis.png" width="900" style="border-radius: 10px; border: 2px solid #1b263b;">
+
+</div>
 
 ---
 
 ## 💡 Strategic Business Insights
-* **The "Month-to-Month" Trap:** Short-term contracts represent the **highest churn risk**, contributing to nearly **60% of total attrition**.
-* **The Critical Window:** A significant **"Early Churn"** trend occurs within the first **6 months** of the customer lifecycle.
-* **Value-Added Services:** Customers without **Online Security** or **Tech Support** churn at a **20% higher rate**, suggesting a need for service bundling.
+* **The Monthly Trap:** **Month-to-month contracts** represent the highest risk, contributing to nearly **60% of total attrition**, suggesting a need for long-term incentive pivoting.
+* **The "Critical Window":** Data reveals a significant **Early Churn** trend within the first **6 months**, highlighting the need for enhanced onboarding engagement.
+* **Service Bundling:** Customers without **Online Security** or **Tech Support** churn at a **20% higher rate**, proving that value-added services are key to loyalty.
+* **Payment Friction:** Electronic check payments show a higher correlation with churn compared to automated Credit Card/Bank Transfers.
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 ```text
-Customer-Churn-Analysis/
-├── Data/               # Source subscriber transaction history
-├── Screenshots/        # High-resolution Executive and Risk Analysis views
-├── Churn Data Analytics.pbix # Core Power BI Interactive Dashboard
-└── README.md           # Project Documentation
+Churn-Data-Analysis-Dashboard/
+├── 📂 Data/                 # Subscriber transaction & service history
+├── 📄 Churn Analytics.png    # Executive Overview Snapshot
+├── 📄 Customer Analysis.png # Demographic Deep-Dive Snapshot
+├── 📄 Revenue & Risk Analysis.png # Risk Matrix Snapshot
+├── 📄 Churn Data Analytics.pbix # Core Power BI Interactive Dashboard
+└── 📄 README.md             # Project Documentation
